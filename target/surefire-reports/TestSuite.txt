@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.636 s <<< FAILURE! - in TestSuite
+Test.OpenMre1.test  Time elapsed: 4.122 s  <<< FAILURE!
+org.openqa.selenium.support.ui.UnexpectedTagNameException: 
+Element should have been "select" but was "input"
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SIRAJs-MacBook-Pro.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.3', java.version: '13.0.2'
+Driver info: driver.version: unknown
+	at Test.OpenMre1.test(OpenMre1.java:53)
+
